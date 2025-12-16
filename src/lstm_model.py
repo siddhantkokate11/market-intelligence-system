@@ -10,6 +10,8 @@ logger = setup_logger("LSTM")
 
 LOOKBACK = 60
 
+os.makedirs("models", exist_ok=True)
+
 def run_lstm(symbol):
     data_path = f"data/prices_{symbol}.csv"
     model_path = f"models/lstm_{symbol}.h5"
