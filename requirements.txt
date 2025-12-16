@@ -1,0 +1,9 @@
+yfinance
+pandas
+numpy
+matplotlib
+tensorflow
+nltk
+feedparser
+scikit-learn
+plotly

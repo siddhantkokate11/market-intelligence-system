@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Data & logs
+data/
+logs/
+
+# Models
+models/
+
+# OS files
+.DS_Store
